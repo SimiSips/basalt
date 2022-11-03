@@ -28,13 +28,6 @@ class StockErrorState extends StockState {
   List<Object?> get props => [error];
 }
 
-class UserOfflineState extends StockState {
-  UserOfflineState(this.offline);
-  final String offline;
-
-  @override
-  List<Object?> get props => [offline];
-}
 
 
 
