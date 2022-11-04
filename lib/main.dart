@@ -10,8 +10,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
 import 'models/stock_model.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+Future main() async{
+  await dotenv.load(fileName: ".env");
   runApp(const MyApp());
 }
 
