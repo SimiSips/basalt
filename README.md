@@ -6,4 +6,7 @@ This Project was created for Basalt Flutter Developer Assessment with the requir
 - [ ] Auto complete search box to UI. Should filter the list returned from the API.
 - [x] Device connectivity status.
 
+Project is designed using the BLoC Pattern.
+Using .env to emit the access_key for public view.
+
 
